@@ -9,13 +9,7 @@ https://docs.mongodb.com/manual/reference/sql-comparison/
 | SQL SELECT Statements  | MongoDB find() Statements |
 | ------------- | ------------- |
 | SELECT * FROM people  | db.people.find() |
-| SELECT id,
-       user_id,
-       status
-FROM people  | db.people.find(
-    { },
-    { user_id: 1, status: 1 }
-)  |
+| SELECT id, user_id, status FROM people  | db.people.find({}, { user_id: 1, status: 1 })  |
 
 
 
