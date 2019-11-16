@@ -7,9 +7,10 @@ SQL to MongoDB Mapping Chart
 https://docs.mongodb.com/manual/reference/sql-comparison/
 
 ```
-SELECT * FROM people
-------------------------
-db.people.find()
+| First Header  | Second Header |
+| ------------- | ------------- |
+| SELECT * FROM people  | db.people.find() |
+| Content Cell  | Content Cell  |
 ```
 
 
