@@ -15,11 +15,11 @@ https://docs.mongodb.com/manual/reference/sql-comparison/
 
 # Update single entry
 
-There are many instances where you only required to update a single entry. Let say you only want to update teh status of a particular user id.
+There are many instances where you only required to update a single entry. Let say you only wanted to update the article [status] of a particular [user id] from "_anything" to "approved"
 
 ```
 ...
-  var query = { status: "pending" };
+  var query = { _id: userId};
   var newvalues = { $set: { status: "approved" } };
   dbo.collection("article").updateOne(query, newvalues, function(err, res) {
 ...
