@@ -34,6 +34,19 @@ one example
 | UPDATE people SET status = "C" WHERE age > 25 | db.people.updateMany({ age: { $gt: 25 } }, { $set: {status: "C"}})|
 
 
+# Use cases
+Use Cases
+https://docs.mongodb.com/ecosystem/use-cases/category-hierarchy/
+
+    Storing Log Data
+    Hierarchical Aggregation
+    Product Catalog
+    Inventory Management
+    Category Hierarchy
+    Metadata and Asset Management
+    Storing Comments
+    Client Side Field Level Encryption Guide
+
 
 
 
